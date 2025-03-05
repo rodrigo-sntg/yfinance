@@ -7,6 +7,9 @@ from datetime import datetime
 from flask_httpauth import HTTPBasicAuth
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Inicializa a aplicação Flask
 app = Flask(__name__)
@@ -18,6 +21,7 @@ users = {
     os.getenv('ADMIN_USER', 'admin'): os.getenv('ADMIN_PASS', 'password123'),
     os.getenv('USER_USER', 'user'): os.getenv('USER_PASS', 'password456')
 }
+print(users)
 
 @auth.verify_password
 def verify_password(username, password):
