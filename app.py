@@ -56,9 +56,6 @@ def get_stock_price(symbol):
     if auth.current_user() == "admin":  # Apenas admin pode acessar
         try:
             # Validação de entrada: verifica se o símbolo é alfanumérico
-            if not symbol.isalnum():
-                logger.warning(f"Símbolo inválido: {symbol}")
-                return jsonify({"error": "Invalid symbol"}), 400
             
             logger.info(f"Recebida requisição para o símbolo: {symbol}")
             # Cria um objeto Ticker com o símbolo fornecido
