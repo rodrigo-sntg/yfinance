@@ -39,8 +39,8 @@ logger = logging.getLogger(__name__)
 
 # Configuração da limitação de taxa
 limiter = Limiter(
-    app,
-    key_func=get_remote_address,
+    get_remote_address,  # Primeiro argumento posicional é a função de chave
+    app=app,            # Flask app como argumento nomeado
     default_limits=["1000 per day", "10 per hour"]
 )
 
@@ -79,4 +79,4 @@ def get_stock_price(symbol):
 # Executa o servidor
 if __name__ == '__main__':
     logger.info("Iniciando o servidor Flask na porta 5000")
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5001)
