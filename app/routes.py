@@ -8,6 +8,7 @@ from app.cache import get_cached_rates, save_cache
 from app.selic import ensure_rates_in_cache, ensure_non_business_day_in_cache
 from app.investimento import calcular_rendimento, analisar_investimento
 from app.logger import logger
+from app.selic_diaria import get_selic_diaria, ensure_selic_diaria_in_cache
 import yfinance as yf
 
 # Cria o blueprint para as rotas
@@ -539,3 +540,62 @@ def get_stock_data(ticker):
     except Exception as e:
         logger.error(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 500 - Error: {str(e)} - User-Agent: {user_agent}")
         return jsonify({'error': str(e)}), 500
+
+@api_bp.route('/selic/diaria', methods=['GET'])
+def get_selic_diaria_endpoint():
+    """
+    Endpoint para buscar a taxa Selic diária para uma data específica
+    
+    Parâmetros:
+      - data: Data para verificação (YYYY-MM-DD)
+    """
+    # Log da requisição
+    ip_origem = request.remote_addr
+    logger.info(f"Requisição de taxa Selic diária recebida de {ip_origem}")
+    
+    requested_date = request.args.get('data')
+    logger.info(f"Parâmetro recebido: data={requested_date}")
+    
+    if not requested_date:
+        mensagem = "Parâmetro 'data' é obrigatório (formato YYYY-MM-DD)"
+        logger.warning(f"Requisição inválida: {mensagem}")
+        return jsonify({"erro": mensagem}), 400
+    
+    try:
+        # Valida o formato da data
+        datetime.strptime(requested_date, "%Y-%m-%d")
+        
+        # Busca a taxa Selic diária
+        taxa_diaria = get_selic_diaria(requested_date)
+        
+        if taxa_diaria:
+            logger.info(f"Taxa Selic diária encontrada para {requested_date}: {taxa_diaria}")
+            
+            # Adiciona campos úteis para o cliente
+            resultado = {
+                "data": requested_date,
+                "data_formatada": taxa_diaria.get("data"),  # Formato DD/MM/YYYY
+                "valor": taxa_diaria.get("valor", "0"),
+                "valor_decimal": float(taxa_diaria.get("valor", "0").replace(",", ".")),
+                "sucesso": True
+            }
+            
+            # Se houver um motivo (erro ou observação), inclui na resposta
+            if "motivo" in taxa_diaria:
+                resultado["motivo"] = taxa_diaria["motivo"]
+                
+            return jsonify(resultado)
+        else:
+            mensagem = f"Taxa Selic diária não encontrada para a data {requested_date}"
+            logger.warning(mensagem)
+            return jsonify({"erro": mensagem, "sucesso": False}), 404
+            
+    except ValueError as e:
+        mensagem = f"Formato de data inválido. Use YYYY-MM-DD: {str(e)}"
+        logger.warning(f"Requisição inválida: {mensagem}")
+        return jsonify({"erro": mensagem, "sucesso": False}), 400
+        
+    except Exception as e:
+        mensagem = f"Erro ao processar requisição: {str(e)}"
+        logger.error(mensagem)
+        return jsonify({"erro": mensagem, "sucesso": False}), 500
