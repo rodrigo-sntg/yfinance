@@ -8,6 +8,7 @@ from app.cache import get_cached_rates, save_cache
 from app.selic import ensure_rates_in_cache, ensure_non_business_day_in_cache
 from app.investimento import calcular_rendimento, analisar_investimento
 from app.logger import logger
+import yfinance as yf
 
 # Cria o blueprint para as rotas
 api_bp = Blueprint('api', __name__)
@@ -508,3 +509,33 @@ def healthcheck():
     Endpoint para verificação de saúde da API
     """
     return jsonify({"status": "ok", "message": "Service is running"}), 200 
+
+@api_bp.route('/stock/<ticker>')
+def get_stock_data(ticker):
+    client_ip = request.remote_addr  # IP do cliente
+    user_agent = request.headers.get('User-Agent', 'Unknown')  # Agente do usuário
+    request_time = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')  # Horário da requisição UTC
+
+    try:
+        stock = yf.Ticker(ticker)
+        data = stock.history(period='1d')
+
+        if data.empty:
+            logger.info(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 404 - User-Agent: {user_agent}")
+            return jsonify({'error': 'No data found for ticker'}), 404
+
+        response_data = {
+            'ticker': ticker,
+            'price': float(data['Close'].iloc[-1]),
+            'high': float(data['High'].iloc[-1]),
+            'low': float(data['Low'].iloc[-1]),
+            'open': float(data['Open'].iloc[-1]),
+            'volume': int(data['Volume'].iloc[-1]),
+        }
+
+        logger.info(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 200 - User-Agent: {user_agent}")
+        return jsonify(response_data)
+
+    except Exception as e:
+        logger.error(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 500 - Error: {str(e)} - User-Agent: {user_agent}")
+        return jsonify({'error': str(e)}), 500

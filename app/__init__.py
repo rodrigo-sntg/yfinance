@@ -10,7 +10,6 @@ def create_app():
         Flask: Aplicação Flask configurada
     """
     app = Flask(__name__)
-    CORS(app)
     
     # Registra o blueprint de API
     app.register_blueprint(api_bp)
