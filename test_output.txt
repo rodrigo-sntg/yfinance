@@ -1,0 +1,82 @@
+STDOUT:
+
+
+STDERR:
+test_get_cached_rates (test_cache.TestCache.test_get_cached_rates) ... ok
+test_load_cache_file_exists (test_cache.TestCache.test_load_cache_file_exists) ... ok
+test_load_cache_file_not_exists (test_cache.TestCache.test_load_cache_file_not_exists) ... ok
+test_load_cache_json_error (test_cache.TestCache.test_load_cache_json_error) ... ok
+test_load_holidays_cache_file_exists (test_cache.TestCache.test_load_holidays_cache_file_exists) ... ok
+test_load_holidays_cache_file_not_exists (test_cache.TestCache.test_load_holidays_cache_file_not_exists) ... ok
+test_save_cache_io_error (test_cache.TestCache.test_save_cache_io_error) ... ok
+test_save_cache_success (test_cache.TestCache.test_save_cache_success) ... ok
+test_save_holidays_cache_success (test_cache.TestCache.test_save_holidays_cache_success) ... ok
+test_fetch_holidays_for_year_api_error (test_holidays.TestHolidays.test_fetch_holidays_for_year_api_error) ... ok
+test_fetch_holidays_for_year_connection_error (test_holidays.TestHolidays.test_fetch_holidays_for_year_connection_error) ... ok
+test_fetch_holidays_for_year_success (test_holidays.TestHolidays.test_fetch_holidays_for_year_success) ... ok
+test_get_holidays_for_year_from_api (test_holidays.TestHolidays.test_get_holidays_for_year_from_api) ... ok
+test_get_holidays_for_year_from_cache (test_holidays.TestHolidays.test_get_holidays_for_year_from_cache) ... ok
+test_is_business_day_holiday (test_holidays.TestHolidays.test_is_business_day_holiday)
+Testa is_business_day para um feriado ... ok
+test_is_business_day_weekend (test_holidays.TestHolidays.test_is_business_day_weekend) ... ok
+test_is_business_day_working_day (test_holidays.TestHolidays.test_is_business_day_working_day) ... ok
+test_is_holiday (test_holidays.TestHolidays.test_is_holiday)
+Testa a função is_holiday para detectar feriados ... ok
+test_preload_holidays_for_period (test_holidays.TestHolidays.test_preload_holidays_for_period) ... ok
+test_analisar_investimento (test_investimento.TestInvestimento.test_analisar_investimento)
+Testa a função de análise de investimento ... ok
+test_calcular_rendimento_com_dias_nao_uteis (test_investimento.TestInvestimento.test_calcular_rendimento_com_dias_nao_uteis)
+Testa o cálculo de rendimento para um período incluindo dias não úteis (fim de semana) ... ok
+test_calcular_rendimento_data_final_none (test_investimento.TestInvestimento.test_calcular_rendimento_data_final_none)
+Testa o cálculo de rendimento quando data_final é None (deve usar dia anterior à data atual) ... ok
+test_calcular_rendimento_dias_uteis (test_investimento.TestInvestimento.test_calcular_rendimento_dias_uteis)
+Testa o cálculo de rendimento para um período com apenas dias úteis ... ok
+test_ensure_non_business_day_in_cache_already_in_cache (test_selic.TestSelic.test_ensure_non_business_day_in_cache_already_in_cache)
+Testa se um dia já no cache não é adicionado novamente ... ok
+test_ensure_non_business_day_in_cache_already_registered (test_selic.TestSelic.test_ensure_non_business_day_in_cache_already_registered)
+Testa se um dia já registrado não é adicionado novamente aos registros ... ok
+test_ensure_non_business_day_in_cache_holiday (test_selic.TestSelic.test_ensure_non_business_day_in_cache_holiday)
+Testa se um feriado é adicionado corretamente ao cache ... ok
+test_ensure_non_business_day_in_cache_weekend (test_selic.TestSelic.test_ensure_non_business_day_in_cache_weekend)
+Testa se um final de semana é adicionado corretamente ao cache ... ok
+test_ensure_non_business_day_in_cache_working_day (test_selic.TestSelic.test_ensure_non_business_day_in_cache_working_day)
+Testa se um dia útil não é adicionado ao cache ... ok
+test_ensure_rates_in_cache_all_dates_cached (test_selic.TestSelic.test_ensure_rates_in_cache_all_dates_cached) ... ok
+test_ensure_rates_in_cache_some_missing_dates (test_selic.TestSelic.test_ensure_rates_in_cache_some_missing_dates) ... ERROR
+test_fetch_selic_for_date_api_error (test_selic.TestSelic.test_fetch_selic_for_date_api_error) ... ok
+test_fetch_selic_for_date_connection_error (test_selic.TestSelic.test_fetch_selic_for_date_connection_error) ... ok
+test_fetch_selic_for_date_empty_response (test_selic.TestSelic.test_fetch_selic_for_date_empty_response) ... ok
+test_fetch_selic_for_date_success (test_selic.TestSelic.test_fetch_selic_for_date_success) ... ok
+test_parse_date_invalid_date (test_utils.TestUtils.test_parse_date_invalid_date)
+Testa parse_date com uma data inexistente ... ok
+test_parse_date_invalid_format (test_utils.TestUtils.test_parse_date_invalid_format)
+Testa parse_date com uma data em formato inválido ... ok
+test_parse_date_non_string (test_utils.TestUtils.test_parse_date_non_string)
+Testa parse_date com input que não é string ... ok
+test_parse_date_valid (test_utils.TestUtils.test_parse_date_valid)
+Testa parse_date com uma data válida ... ok
+test_safe_float_invalid (test_utils.TestUtils.test_safe_float_invalid)
+Testa safe_float com valores inválidos ... ok
+test_safe_float_valid (test_utils.TestUtils.test_safe_float_valid)
+Testa safe_float com valor numérico válido ... ok
+
+======================================================================
+ERROR: test_ensure_rates_in_cache_some_missing_dates (test_selic.TestSelic.test_ensure_rates_in_cache_some_missing_dates)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/unittest/mock.py", line 1424, in patched
+    return func(*newargs, **newkeywargs)
+  File "/home/rodrigos/dev/projects/yfinance/tests/unit/test_selic.py", line 296, in test_ensure_rates_in_cache_some_missing_dates
+    result = ensure_rates_in_cache(start_date, end_date)
+  File "/home/rodrigos/dev/projects/yfinance/app/selic.py", line 182, in ensure_rates_in_cache
+    foi_adicionado, _, _ = ensure_non_business_day_in_cache(temp_date, taxas_diarias, registros_unicos, datas_registradas)
+    ^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 3, got 2)
+
+----------------------------------------------------------------------
+Ran 40 tests in 0.982s
+
+FAILED (errors=1)
+
+
+Exit code: 1

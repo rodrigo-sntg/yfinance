@@ -1,0 +1,98 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Ambientes virtuais
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# Distribuição / empacotamento
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Arquivos de cache específicos da aplicação
+.cache/
+cache/
+*.cache
+*.db
+*.sqlite
+*.sqlite3
+
+# Arquivos específicos do yfinance/selic
+selic_cache.json
+taxa_selic_cache.json
+*.json.bak
+*.json.old
+
+# Logs
+logs/
+*.log
+log.txt
+error.log
+selic.log
+
+# Arquivos de configuração local
+config.local.py
+*.local.py
+*.local.json
+.env
+.env.local
+.env.dev
+credentials.json
+
+# IDE e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+
+# Arquivos temporários
+tmp/
+temp/
+.tmp/
+.temp/
+*.tmp
+
+# Arquivos de dados
+*.csv
+*.xls
+*.xlsx
+*.pkl
+*.h5
+# Descomente a linha abaixo se você não quiser versionar arquivos JSON
+# *.json
+
+# Diretórios de resultados e relatórios
+results/
+reports/
+output/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover 
