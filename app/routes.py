@@ -1,6 +1,8 @@
 from datetime import datetime, timedelta
 from flask import Blueprint, request, jsonify
 import json
+import numpy as np
+import pandas as pd
 
 from app.utils import parse_date, safe_float
 from app.holidays import is_business_day, get_holidays_for_year
@@ -599,3 +601,191 @@ def get_selic_diaria_endpoint():
         mensagem = f"Erro ao processar requisição: {str(e)}"
         logger.error(mensagem)
         return jsonify({"erro": mensagem, "sucesso": False}), 500
+
+@api_bp.route('/simulacao', methods=['POST'])
+def simulacao_investimento():
+    """
+    Endpoint para simulação de investimentos a longo prazo
+    
+    Parâmetros JSON:
+      - investimento_inicial: Valor inicial a ser investido (float)
+      - aporte_mensal: Valor a ser aportado mensalmente (float)
+      - anos: Duração do investimento em anos (int)
+      - retorno_anual: Taxa de retorno anual esperada (float, em decimal - ex: 0.10 para 10%)
+      - taxa_administracao: Taxa de administração anual (float, em decimal - ex: 0.005 para 0.5%)
+      - aliquota_imposto: Alíquota de imposto sobre o rendimento (float, em decimal - ex: 0.15 para 15%)
+      - inflacao_anual: Taxa de inflação anual esperada (float, em decimal - ex: 0.045 para 4.5%)
+      - detalhes: Se true, retorna o histórico mensal completo (opcional, default: false)
+    """
+    # Log da requisição
+    ip_origem = request.remote_addr
+    logger.info(f"Requisição de simulação de investimento recebida de {ip_origem}")
+    
+    # Obtém os dados do corpo da requisição
+    dados = request.get_json()
+    if not dados:
+        mensagem = "Corpo da requisição deve ser um JSON válido"
+        logger.warning(f"Requisição inválida: {mensagem}")
+        return jsonify({"erro": mensagem}), 400
+    
+    logger.info(f"Parâmetros recebidos: {json.dumps(dados)}")
+    
+    # Valida parâmetros obrigatórios
+    parametros_obrigatorios = ['investimento_inicial', 'aporte_mensal', 'anos', 
+                               'retorno_anual', 'taxa_administracao', 
+                               'aliquota_imposto', 'inflacao_anual']
+    
+    for param in parametros_obrigatorios:
+        if param not in dados:
+            mensagem = f"Parâmetro '{param}' é obrigatório"
+            logger.warning(f"Requisição inválida: {mensagem}")
+            return jsonify({"erro": mensagem}), 400
+    
+    # Converte e valida os parâmetros
+    try:
+        investimento_inicial = float(dados['investimento_inicial'])
+        aporte_mensal = float(dados['aporte_mensal'])
+        anos = int(dados['anos'])
+        retorno_anual = float(dados['retorno_anual'])
+        taxa_administracao = float(dados['taxa_administracao'])
+        aliquota_imposto = float(dados['aliquota_imposto'])
+        inflacao_anual = float(dados['inflacao_anual'])
+        detalhes = dados.get('detalhes', False)
+        
+        # Validações adicionais
+        if investimento_inicial < 0:
+            raise ValueError("Investimento inicial não pode ser negativo")
+        if aporte_mensal < 0:
+            raise ValueError("Aporte mensal não pode ser negativo")
+        if anos <= 0:
+            raise ValueError("Anos deve ser maior que zero")
+        if retorno_anual < 0:
+            raise ValueError("Retorno anual não pode ser negativo")
+        if taxa_administracao < 0:
+            raise ValueError("Taxa de administração não pode ser negativa")
+        if aliquota_imposto < 0 or aliquota_imposto > 1:
+            raise ValueError("Alíquota de imposto deve estar entre 0 e 1")
+        if inflacao_anual < 0:
+            raise ValueError("Inflação anual não pode ser negativa")
+            
+    except ValueError as e:
+        mensagem = f"Erro de validação: {str(e)}"
+        logger.warning(f"Requisição inválida: {mensagem}")
+        return jsonify({"erro": mensagem}), 400
+    
+    # Executa a simulação
+    try:
+        resultado = calcular_simulacao(
+            investimento_inicial=investimento_inicial,
+            aporte_mensal=aporte_mensal,
+            anos=anos,
+            retorno_anual=retorno_anual,
+            taxa_administracao=taxa_administracao,
+            aliquota_imposto=aliquota_imposto,
+            inflacao_anual=inflacao_anual
+        )
+        
+        # Formata o resultado para retorno
+        resposta = {
+            "sucesso": True,
+            "resumo": resultado["resumo"]
+        }
+        
+        # Inclui o histórico mensal se solicitado
+        if detalhes:
+            resposta["historico_mensal"] = resultado["historico_mensal"]
+        
+        logger.info(f"Simulação concluída com sucesso. Valor final líquido: {resultado['resumo']['valor_final_liquido']}")
+        return jsonify(resposta)
+        
+    except Exception as e:
+        mensagem = f"Erro ao processar simulação: {str(e)}"
+        logger.error(mensagem)
+        return jsonify({"erro": mensagem, "sucesso": False}), 500
+
+def calcular_simulacao(
+    investimento_inicial, aporte_mensal, anos, retorno_anual,
+    taxa_administracao, aliquota_imposto, inflacao_anual
+):
+    """
+    Calcula uma simulação de investimento a longo prazo
+    
+    Args:
+        investimento_inicial (float): Valor inicial a ser investido
+        aporte_mensal (float): Valor a ser aportado mensalmente
+        anos (int): Duração do investimento em anos
+        retorno_anual (float): Taxa de retorno anual esperada (decimal)
+        taxa_administracao (float): Taxa de administração anual (decimal)
+        aliquota_imposto (float): Alíquota de imposto sobre o rendimento (decimal)
+        inflacao_anual (float): Taxa de inflação anual esperada (decimal)
+        
+    Returns:
+        dict: Resumo e histórico mensal da simulação
+    """
+    logger.debug(f"Iniciando simulação: investimento_inicial={investimento_inicial}, " +
+                 f"aporte_mensal={aporte_mensal}, anos={anos}, retorno_anual={retorno_anual}, " +
+                 f"taxa_administracao={taxa_administracao}, aliquota_imposto={aliquota_imposto}, " +
+                 f"inflacao_anual={inflacao_anual}")
+    
+    # Ajustando valores
+    retorno_liquido_anual = retorno_anual - taxa_administracao
+    n_periodos = anos * 12
+    retorno_mensal = (1 + retorno_liquido_anual) ** (1/12) - 1
+    
+    # Inicializando variáveis
+    saldo_bruto = investimento_inicial
+    saldo_liquido = investimento_inicial
+    total_investido = investimento_inicial
+    historico_mensal = []
+    
+    for mes in range(1, n_periodos + 1):
+        rendimento = saldo_bruto * retorno_mensal
+        taxa_adm = saldo_bruto * (taxa_administracao / 12)
+        imposto = rendimento * aliquota_imposto
+        rendimento_liquido = rendimento - imposto - taxa_adm
+        saldo_bruto += rendimento + aporte_mensal
+        saldo_liquido += rendimento_liquido + aporte_mensal
+        total_investido += aporte_mensal
+        
+        historico_mensal.append({
+            "mes": mes,
+            "valor_investido": total_investido,
+            "rendimento": rendimento,
+            "rendimento_pct": retorno_mensal * 100,
+            "saldo_bruto": saldo_bruto,
+            "saldo_liquido": saldo_liquido,
+            "retorno_acumulado": saldo_liquido - total_investido,
+            "taxa_de_administracao": taxa_adm,
+            "imposto": imposto,
+            "rendimento_liquido": rendimento_liquido
+        })
+    
+    # Cálculo dos valores finais
+    montante_final = saldo_bruto
+    montante_final_liquido = saldo_liquido
+    rendimentos_brutos = montante_final - total_investido
+    imposto_total = rendimentos_brutos * aliquota_imposto
+    montante_final_real = montante_final_liquido / ((1 + inflacao_anual) ** anos)
+    taxas_administracao_total = total_investido * taxa_administracao * anos
+    cagr_liquido = (montante_final_liquido / total_investido) ** (1 / anos) - 1
+    cagr_real = (montante_final_real / total_investido) ** (1 / anos) - 1
+    
+    logger.debug(f"Simulação concluída: montante_final={montante_final}, " +
+                 f"montante_final_liquido={montante_final_liquido}, " +
+                 f"cagr_liquido={cagr_liquido}, cagr_real={cagr_real}")
+    
+    # Retornando resultados
+    return {
+        "resumo": {
+            "valor_final_bruto": montante_final,
+            "total_investido": total_investido,
+            "total_de_rendimentos_brutos": rendimentos_brutos,
+            "total_de_taxas_de_administracao": taxas_administracao_total,
+            "total_de_impostos": imposto_total,
+            "valor_final_liquido": montante_final_liquido,
+            "valor_final_liquido_ajustado_pela_inflacao": montante_final_real,
+            "retorno_anualizado_liquido_pct": cagr_liquido * 100,
+            "retorno_anualizado_ajustado_pela_inflacao_pct": cagr_real * 100
+        },
+        "historico_mensal": historico_mensal
+    }
