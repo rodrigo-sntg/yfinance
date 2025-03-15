@@ -523,19 +523,30 @@ def get_stock_data(ticker):
     try:
         stock = yf.Ticker(ticker)
         data = stock.history(period='1d')
+        regular_market_price = stock.info.get("regularMarketPrice")
 
-        if data.empty:
+
+        if data.empty and regular_market_price is None:
             logger.info(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 404 - User-Agent: {user_agent}")
             return jsonify({'error': 'No data found for ticker'}), 404
-
-        response_data = {
-            'ticker': ticker,
-            'price': float(data['Close'].iloc[-1]),
-            'high': float(data['High'].iloc[-1]),
-            'low': float(data['Low'].iloc[-1]),
-            'open': float(data['Open'].iloc[-1]),
-            'volume': int(data['Volume'].iloc[-1]),
-        }
+        elif regular_market_price is not None:
+            response_data = {
+                'ticker': ticker,
+                'price': float(regular_market_price),
+                'high': float(regular_market_price),
+                'low': float(regular_market_price),
+                'open': float(regular_market_price),
+                'volume': int(regular_market_price),
+            }
+        else:
+            response_data = {
+                'ticker': ticker,
+                'price': float(data['Close'].iloc[-1]),
+                'high': float(data['High'].iloc[-1]),
+                'low': float(data['Low'].iloc[-1]),
+                'open': float(data['Open'].iloc[-1]),
+                'volume': int(data['Volume'].iloc[-1]),
+            }
 
         logger.info(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 200 - User-Agent: {user_agent}")
         return jsonify(response_data)
