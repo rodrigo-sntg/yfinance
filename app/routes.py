@@ -758,3 +758,47 @@ def simulacao_investimento():
             "sucesso": False, 
             "erro": f"Erro ao calcular simulação: {str(e)}"
         }), 500
+
+@api_bp.route('/investimento/prefixado', methods=['GET'])
+def investimento_prefixado_endpoint():
+    """
+    Calcula o valor atualizado de um investimento pré-fixado (como Tesouro Direto) com uma taxa fixa anual.
+    
+    Parâmetros:
+      - data: data de início do investimento (YYYY-MM-DD)
+      - valor: valor investido inicial (float)
+      - taxa_anual: taxa de juros anual em % (ex: 10.5 para 10,5% ao ano)
+      - data_final: data final do investimento (opcional, padrão é o dia anterior à data atual)
+      - taxa_admin: taxa de administração anual em % (opcional, padrão é 0)
+      - taxa_custodia: taxa de custódia anual em % (opcional, padrão é 0)
+      - incluir_impostos: se deve incluir cálculo de IR e IOF (opcional, padrão é true)
+      - regime: regime de capitalização (opcional, valores: 'diario' ou 'anual', padrão é 'diario')
+    """
+    # Log da requisição recebida
+    ip_origem = request.remote_addr
+    user_agent = request.headers.get('User-Agent', 'Unknown')
+    logger.info(f"Requisição de cálculo de investimento pré-fixado recebida de {ip_origem} - User-Agent: {user_agent}")
+    
+    # Importar a função de validação para evitar circular imports
+    from app.validacao import validar_parametros_investimento_prefixado
+    
+    # Validar os parâmetros da requisição
+    params, erro = validar_parametros_investimento_prefixado()
+    if erro:
+        return erro
+
+    try:
+        # Importar aqui para evitar import circular
+        from app.prefixado import calcular_investimento_prefixado
+        
+        # Chamar a função desacoplada para calcular o investimento
+        resultado = calcular_investimento_prefixado(**params)
+        
+        logger.info(f"Investimento pré-fixado calculado com sucesso: valor final líquido R$ {resultado['valor_final_liquido']:.2f}")
+        
+        return jsonify(resultado)
+    
+    except Exception as e:
+        erro_msg = f"Erro ao calcular investimento pré-fixado: {str(e)}"
+        logger.error(erro_msg)
+        return jsonify({"error": erro_msg}), 500
