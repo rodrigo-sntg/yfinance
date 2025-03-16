@@ -1,5 +1,5 @@
 import math
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, date
 from typing import Dict, Any, Optional, Tuple
 
 from app.holidays import is_business_day
@@ -29,11 +29,80 @@ def calcular_investimento_prefixado(
         regime: Regime de capitalização ('diario' ou 'anual')
         
     Returns:
-        Dicionário com os detalhes do cálculo e valores finais
+        Dicionário com os detalhes do cálculo e valores finais, incluindo situação atual em um campo adicional
     """
     logger.info(f"Calculando investimento pré-fixado de R$ {valor_investido:.2f} "
                 f"de {data_inicial.isoformat()} até {data_final.isoformat()}")
     
+    # Obter a data atual para cálculo até hoje
+    data_atual = date.today()
+    
+    # Verificar se a data_atual é posterior à data_inicial e anterior à data_final
+    if data_atual <= data_inicial:
+        logger.warning("A data atual é anterior ou igual à data inicial. Apenas a simulação até a data final será calculada.")
+        apenas_simulacao_final = True
+    elif data_atual >= data_final:
+        logger.warning("A data atual é posterior ou igual à data final. Apenas a simulação até a data final será calculada.")
+        apenas_simulacao_final = True
+    else:
+        apenas_simulacao_final = False
+    
+    # Calcular resultado até a data final
+    resultado_completo = calcular_periodo(
+        data_inicial=data_inicial,
+        data_final=data_final,
+        valor_investido=valor_investido,
+        taxa_anual=taxa_anual,
+        taxa_admin=taxa_admin,
+        taxa_custodia=taxa_custodia,
+        incluir_impostos=incluir_impostos,
+        regime=regime
+    )
+    
+    # Calcular resultado até a data atual (se aplicável)
+    if not apenas_simulacao_final:
+        resultado_atual = calcular_periodo(
+            data_inicial=data_inicial,
+            data_final=data_atual,
+            valor_investido=valor_investido,
+            taxa_anual=taxa_anual,
+            taxa_admin=taxa_admin,
+            taxa_custodia=taxa_custodia,
+            incluir_impostos=incluir_impostos,
+            regime=regime
+        )
+        # Adicionar situação atual como um campo separado
+        resultado_completo["situacao_atual"] = resultado_atual
+    
+    return resultado_completo
+
+
+def calcular_periodo(
+    data_inicial: datetime.date,
+    data_final: datetime.date,
+    valor_investido: float,
+    taxa_anual: float,
+    taxa_admin: float = 0.0,
+    taxa_custodia: float = 0.0,
+    incluir_impostos: bool = True,
+    regime: str = "diario"
+) -> Dict[str, Any]:
+    """
+    Calcula o rendimento de um investimento pré-fixado para um período específico
+    
+    Args:
+        data_inicial: Data de início do investimento
+        data_final: Data final para o cálculo
+        valor_investido: Valor inicial investido
+        taxa_anual: Taxa de juros anual (em decimal, ex: 0.105 para 10.5%)
+        taxa_admin: Taxa de administração anual (em decimal)
+        taxa_custodia: Taxa de custódia anual (em decimal)
+        incluir_impostos: Se deve calcular impostos (IR e IOF)
+        regime: Regime de capitalização ('diario' ou 'anual')
+        
+    Returns:
+        Dicionário com os detalhes do cálculo e valores finais
+    """
     # Calcular número de dias no período
     dias_totais = (data_final - data_inicial).days
     if dias_totais <= 0:

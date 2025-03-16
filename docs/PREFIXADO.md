@@ -64,7 +64,14 @@ O IOF é aplicado apenas para resgates em até 30 dias, com alíquota regressiva
 
 ## Estrutura de Resposta
 
-A resposta é um objeto JSON com os seguintes campos:
+A resposta é um objeto JSON que contém dois conjuntos de resultados:
+
+1. **situacao_atual**: Contém os cálculos considerando o período da data inicial até a data atual (hoje)
+2. **simulacao_completa**: Contém os cálculos considerando o período completo (da data inicial até a data final informada)
+
+> Nota: O campo **situacao_atual** só estará presente se a data atual estiver entre a data inicial e a data final. Caso contrário, apenas o campo **simulacao_completa** será retornado.
+
+Cada conjunto de resultados contém os seguintes campos:
 
 | Campo | Tipo | Descrição |
 |-------|------|------------|
@@ -93,7 +100,7 @@ A resposta é um objeto JSON com os seguintes campos:
 
 ### Campo Resumo
 
-O campo "resumo" contém um objeto com valores arredondados para facilitar o consumo por frontends:
+Cada conjunto de resultados também inclui o campo `resumo` que contém um objeto com valores arredondados para facilitar o consumo por frontends:
 
 ```
 {
@@ -126,36 +133,70 @@ curl -X GET "http://localhost:5000/investimento/prefixado?data=2023-01-01&valor=
 
 ```json
 {
-  "aliquota_iof": 0,
-  "aliquota_ir": 15.0,
-  "data_final": "2025-03-14",
-  "data_inicial": "2023-01-01",
-  "dias_totais": 803,
-  "dias_uteis": 563,
-  "imposto_iof": 0.0,
-  "imposto_renda": 37.48567663102233,
-  "regime_capitalizacao": "diario",
-  "rendimento_bruto": 249.9045108734822,
-  "rendimento_liquido": 212.41883424245998,
-  "rendimento_liquido_percentual": 21.241883424245998,
-  "resumo": {
-    "impostos_totais": 37.49,
-    "rendimento_liquido": 212.42,
-    "rendimento_percentual": 21.24,
-    "taxas_totais": 0.0,
-    "valor_final_bruto": 1249.9,
-    "valor_final_liquido": 1212.42
+  "situacao_atual": {
+    "aliquota_iof": 0,
+    "aliquota_ir": 17.5,
+    "data_final": "2024-03-15",
+    "data_inicial": "2023-01-01",
+    "dias_totais": 439,
+    "dias_uteis": 304,
+    "imposto_iof": 0.0,
+    "imposto_renda": 18.74,
+    "regime_capitalizacao": "diario",
+    "rendimento_bruto": 107.14,
+    "rendimento_liquido": 88.4,
+    "rendimento_liquido_percentual": 8.84,
+    "resumo": {
+      "impostos_totais": 18.74,
+      "rendimento_liquido": 88.4,
+      "rendimento_percentual": 8.84,
+      "taxas_totais": 0.0,
+      "valor_final_bruto": 1107.14,
+      "valor_final_liquido": 1088.4
+    },
+    "taxa_administracao": 0.0,
+    "taxa_anual": 10.5,
+    "taxa_custodia": 0.0,
+    "total_impostos": 18.74,
+    "total_taxas": 0.0,
+    "valor_final_bruto": 1107.14,
+    "valor_final_liquido": 1088.4,
+    "valor_investido": 1000.0,
+    "valor_taxa_administracao": 0.0,
+    "valor_taxa_custodia": 0.0
   },
-  "taxa_administracao": 0.0,
-  "taxa_anual": 10.5,
-  "taxa_custodia": 0.0,
-  "total_impostos": 37.48567663102233,
-  "total_taxas": 0.0,
-  "valor_final_bruto": 1249.9045108734822,
-  "valor_final_liquido": 1212.41883424246,
-  "valor_investido": 1000.0,
-  "valor_taxa_administracao": 0.0,
-  "valor_taxa_custodia": 0.0
+  "simulacao_completa": {
+    "aliquota_iof": 0,
+    "aliquota_ir": 15.0,
+    "data_final": "2025-03-14",
+    "data_inicial": "2023-01-01",
+    "dias_totais": 803,
+    "dias_uteis": 563,
+    "imposto_iof": 0.0,
+    "imposto_renda": 37.49,
+    "regime_capitalizacao": "diario",
+    "rendimento_bruto": 249.9,
+    "rendimento_liquido": 212.41,
+    "rendimento_liquido_percentual": 21.24,
+    "resumo": {
+      "impostos_totais": 37.49,
+      "rendimento_liquido": 212.42,
+      "rendimento_percentual": 21.24,
+      "taxas_totais": 0.0,
+      "valor_final_bruto": 1249.9,
+      "valor_final_liquido": 1212.42
+    },
+    "taxa_administracao": 0.0,
+    "taxa_anual": 10.5,
+    "taxa_custodia": 0.0,
+    "total_impostos": 37.49,
+    "total_taxas": 0.0,
+    "valor_final_bruto": 1249.9,
+    "valor_final_liquido": 1212.41,
+    "valor_investido": 1000.0,
+    "valor_taxa_administracao": 0.0,
+    "valor_taxa_custodia": 0.0
+  }
 }
 ```
 
