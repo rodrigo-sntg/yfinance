@@ -2,6 +2,9 @@ import logging
 import math
 import numpy as np
 from datetime import datetime
+import pandas as pd
+from flask import request, jsonify
+from app.logger import logger
 
 logger = logging.getLogger(__name__)
 
@@ -188,4 +191,4 @@ def calcular_simulacao(
     if detalhes:
         resultados["historico_mensal"] = historico_mensal
     
-    return resultados 
+    return resultados

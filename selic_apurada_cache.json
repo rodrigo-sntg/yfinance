@@ -13384,6 +13384,6150 @@
             "qtdOperacoes": 0,
             "taxaAnual": 0.0,
             "isBusinessDay": true
+        },
+        {
+            "dataCotacao": "13/03/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_OBSERVACAO: "
+        },
+        {
+            "dataCotacao": "14/03/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_OBSERVACAO: "
+        },
+        {
+            "dataCotacao": "15/03/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "16/03/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "17/03/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_OBSERVACAO: "
+        },
+        {
+            "dataCotacao": "18/03/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "19/03/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "20/03/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "21/03/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "22/03/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "23/03/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "24/03/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "25/03/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "26/03/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "27/03/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "28/03/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "29/03/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "30/03/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "31/03/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "01/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "02/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "03/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "04/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "05/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "06/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "07/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "08/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "09/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "10/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "11/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Sexta-feira Santa (provável)"
+        },
+        {
+            "dataCotacao": "12/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "13/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "14/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "15/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "16/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "17/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "18/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Sexta-feira Santa"
+        },
+        {
+            "dataCotacao": "19/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "20/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Páscoa"
+        },
+        {
+            "dataCotacao": "21/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Tiradentes"
+        },
+        {
+            "dataCotacao": "22/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "23/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "24/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "25/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "26/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "27/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "28/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "29/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "30/04/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "01/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Dia do trabalho"
+        },
+        {
+            "dataCotacao": "02/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "03/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "04/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "05/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "06/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "07/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "08/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "09/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "10/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "11/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "12/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "13/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "14/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "15/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "16/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "17/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "18/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "19/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "20/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "21/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "22/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "23/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "24/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "25/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "26/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "27/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "28/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "29/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "30/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "31/05/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "01/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "02/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "03/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "04/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "05/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "06/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "07/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "08/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "09/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "10/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "11/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "12/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "13/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "14/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "15/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "16/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "17/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "18/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "19/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Corpus Christi"
+        },
+        {
+            "dataCotacao": "20/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "21/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "22/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "23/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "24/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "25/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "26/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "27/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "28/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "29/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "30/06/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "01/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "02/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "03/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "04/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "05/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "06/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "07/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "08/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "09/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "10/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "11/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "12/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "13/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "14/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "15/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "16/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "17/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "18/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "19/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "20/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "21/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "22/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "23/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "24/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "25/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "26/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "27/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "28/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "29/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "30/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "31/07/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "01/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "02/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "03/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "04/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "05/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "06/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "07/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "08/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "09/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "10/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "11/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "12/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "13/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "14/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "15/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "16/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "17/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "18/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "19/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "20/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "21/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "22/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "23/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "24/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "25/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "26/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "27/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "28/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "29/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "30/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "31/08/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "01/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "02/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "03/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "04/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "05/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "06/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "07/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Independência do Brasil"
+        },
+        {
+            "dataCotacao": "08/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "09/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "10/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "11/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "12/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "13/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "14/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "15/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "16/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "17/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "18/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "19/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "20/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "21/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "22/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "23/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "24/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "25/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "26/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "27/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "28/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "29/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "30/09/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "01/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "02/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "03/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "04/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "05/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "06/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "07/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "08/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "09/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "10/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "11/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "12/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Nossa Senhora Aparecida"
+        },
+        {
+            "dataCotacao": "13/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "14/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "15/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "16/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "17/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "18/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "19/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "20/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "21/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "22/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "23/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "24/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "25/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "26/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "27/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "28/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "29/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "30/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "31/10/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "01/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "02/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Finados"
+        },
+        {
+            "dataCotacao": "03/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "04/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "05/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "06/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "07/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "08/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "09/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "10/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "11/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "12/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "13/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "14/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "15/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Proclamação da República"
+        },
+        {
+            "dataCotacao": "16/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "17/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "18/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "19/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "20/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Dia da consciência negra"
+        },
+        {
+            "dataCotacao": "21/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "22/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "23/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "24/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "25/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "26/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "27/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "28/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "29/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "30/11/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "01/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "02/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "03/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "04/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "05/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "06/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "07/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "08/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "09/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "10/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "11/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "12/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "13/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "14/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "15/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "16/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "17/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "18/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "19/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "20/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "21/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "22/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "23/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "24/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "25/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Natal"
+        },
+        {
+            "dataCotacao": "26/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "27/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "28/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "29/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "30/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "31/12/2025",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "01/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Confraternização mundial"
+        },
+        {
+            "dataCotacao": "02/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "03/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "04/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "05/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "06/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "07/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "08/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "09/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "10/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "11/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "12/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "13/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "14/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "15/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "16/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "17/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "18/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "19/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "20/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "21/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "22/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "23/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "24/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "25/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "26/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "27/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "28/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "29/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "30/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "31/01/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "01/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "02/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "03/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "04/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "05/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "06/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "07/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "08/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "09/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "10/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "11/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "12/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "13/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "14/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "15/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "16/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "17/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Carnaval"
+        },
+        {
+            "dataCotacao": "18/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "19/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "20/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "21/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "22/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "23/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "24/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "25/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "26/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "27/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "28/02/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "01/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "02/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "03/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "04/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "05/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "06/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "07/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "08/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "09/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "10/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "11/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "12/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "13/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "14/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "15/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "16/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "17/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "18/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "19/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "20/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "21/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "22/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "23/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "24/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "25/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "26/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "27/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "28/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "29/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "30/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "31/03/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "01/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "02/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "03/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Sexta-feira Santa"
+        },
+        {
+            "dataCotacao": "04/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "05/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Páscoa"
+        },
+        {
+            "dataCotacao": "06/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "07/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "08/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "09/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "10/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Sexta-feira Santa (provável)"
+        },
+        {
+            "dataCotacao": "11/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "12/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "13/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "14/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "15/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "16/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "17/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "18/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "19/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "20/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "21/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Tiradentes"
+        },
+        {
+            "dataCotacao": "22/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "23/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "24/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "25/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "26/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "27/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "28/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "29/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "30/04/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "01/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Dia do trabalho"
+        },
+        {
+            "dataCotacao": "02/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "03/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "04/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "05/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "06/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "07/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "08/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "09/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "10/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "11/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "12/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "13/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "14/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "15/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "16/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "17/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "18/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "19/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "20/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "21/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "22/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "23/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "24/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "25/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "26/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "27/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "28/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "29/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "30/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "31/05/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "01/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "02/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "03/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "04/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Corpus Christi"
+        },
+        {
+            "dataCotacao": "05/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "06/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "07/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "08/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "09/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "10/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "11/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "12/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "13/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "14/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "15/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "16/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "17/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "18/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "19/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "20/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "21/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "22/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "23/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "24/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "25/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "26/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "27/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "28/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "29/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "30/06/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "01/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "02/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "03/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "04/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "05/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "06/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "07/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "08/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "09/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "10/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "11/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "12/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "13/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "14/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "15/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "16/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "17/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "18/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "19/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "20/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "21/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "22/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "23/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "24/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "25/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "26/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "27/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "28/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "29/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "30/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "31/07/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "01/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "02/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "03/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "04/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "05/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "06/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "07/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "08/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "09/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "10/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "11/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "12/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "13/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "14/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "15/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "16/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "17/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "18/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "19/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "20/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "21/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "22/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "23/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "24/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "25/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "26/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "27/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "28/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "29/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "30/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "31/08/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "01/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "02/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "03/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "04/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "05/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "06/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "07/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Independência do Brasil"
+        },
+        {
+            "dataCotacao": "08/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "09/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "10/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "11/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "12/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "13/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "14/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "15/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "16/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "17/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "18/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "19/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "20/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "21/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "22/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "23/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "24/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "25/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "26/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "27/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "28/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "29/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "30/09/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "01/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "02/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "03/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "04/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "05/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "06/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "07/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "08/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "09/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "10/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "11/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "12/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Nossa Senhora Aparecida"
+        },
+        {
+            "dataCotacao": "13/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "14/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "15/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "16/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "17/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "18/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "19/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "20/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "21/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "22/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "23/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "24/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "25/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "26/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "27/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "28/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "29/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "30/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "31/10/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "01/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "02/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Finados"
+        },
+        {
+            "dataCotacao": "03/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "04/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "05/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "06/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "07/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "08/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "09/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "10/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "11/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "12/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "13/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "14/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "15/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Proclamação da República"
+        },
+        {
+            "dataCotacao": "16/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "17/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "18/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "19/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "20/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Dia da consciência negra"
+        },
+        {
+            "dataCotacao": "21/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "22/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "23/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "24/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "25/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "26/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "27/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "28/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "29/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "30/11/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "01/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "02/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "03/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "04/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "05/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "06/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "07/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "08/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "09/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "10/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "11/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "12/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "13/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "14/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "15/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "16/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "17/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "18/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "19/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "20/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "21/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "22/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "23/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "24/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "25/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Natal"
+        },
+        {
+            "dataCotacao": "26/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "27/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "28/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "29/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "30/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "31/12/2026",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "01/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Confraternização mundial"
+        },
+        {
+            "dataCotacao": "02/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "03/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "04/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "05/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "06/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "07/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "08/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "09/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "10/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "11/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "12/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "13/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "14/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "15/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "16/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "17/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "18/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "19/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "20/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "21/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "22/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "23/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "24/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "25/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "26/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "27/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "28/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "29/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "30/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "31/01/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "01/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "02/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "03/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "04/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "05/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "06/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "07/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "08/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "09/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Carnaval"
+        },
+        {
+            "dataCotacao": "10/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "11/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "12/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "13/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "14/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "15/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "16/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "17/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "18/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "19/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "20/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "21/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "22/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "23/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "24/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "25/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "26/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "27/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "28/02/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "01/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "02/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "03/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "04/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "05/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "06/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "07/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "08/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "09/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "10/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "11/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "12/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "13/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "14/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "15/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "16/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "17/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "18/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "19/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "20/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "21/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "22/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "23/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "24/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "25/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "26/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Sexta-feira Santa"
+        },
+        {
+            "dataCotacao": "27/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "28/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Páscoa"
+        },
+        {
+            "dataCotacao": "29/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "30/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "31/03/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "01/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "02/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "03/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "04/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "05/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "06/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "07/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "08/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "09/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Sexta-feira Santa (provável)"
+        },
+        {
+            "dataCotacao": "10/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "11/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "12/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "13/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "14/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "15/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "16/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "17/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "18/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "19/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "20/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "21/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Tiradentes"
+        },
+        {
+            "dataCotacao": "22/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "23/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "24/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "25/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "26/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "27/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "28/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "29/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "30/04/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "01/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Dia do trabalho"
+        },
+        {
+            "dataCotacao": "02/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "03/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "04/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "05/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "06/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "07/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "08/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "09/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "10/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "11/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "12/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "13/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "14/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "15/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "16/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "17/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "18/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "19/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "20/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "21/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "22/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "23/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "24/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "25/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "26/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "27/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Corpus Christi"
+        },
+        {
+            "dataCotacao": "28/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "29/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "30/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "31/05/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "01/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "02/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "03/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "04/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "05/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "06/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "07/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "08/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "09/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "10/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "11/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "12/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "13/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "14/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "15/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "16/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "17/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "18/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "19/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "20/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "21/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "22/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "23/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "24/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "25/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "26/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "27/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "28/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "29/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "30/06/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "01/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "02/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "03/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "04/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "05/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "06/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "07/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "08/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "09/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "10/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "11/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "12/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "13/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "14/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "15/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "16/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "17/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "18/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "19/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "20/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "21/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "22/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "23/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "24/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "25/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "26/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "27/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "28/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "29/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "30/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "31/07/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "01/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "02/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "03/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "04/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "05/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "06/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "07/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "08/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "09/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "10/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "11/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "12/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "13/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "14/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "15/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "16/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "17/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "18/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "19/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "20/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "21/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "22/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "23/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "24/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "25/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "26/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "27/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "28/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "29/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "30/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "31/08/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "01/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "02/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "03/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "04/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "05/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "06/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "07/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Independência do Brasil"
+        },
+        {
+            "dataCotacao": "08/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "09/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "10/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "11/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "12/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "13/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "14/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "15/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "16/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "17/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "18/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "19/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "20/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "21/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "22/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "23/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "24/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "25/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "26/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "27/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "28/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "29/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "30/09/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "01/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "02/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "03/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "04/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "05/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "06/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "07/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "08/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "09/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "10/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "11/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "12/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Nossa Senhora Aparecida"
+        },
+        {
+            "dataCotacao": "13/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "14/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "15/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "16/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "17/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "18/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "19/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "20/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "21/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "22/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "23/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "24/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "25/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "26/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "27/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "28/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "29/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "30/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "31/10/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "01/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "02/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Finados"
+        },
+        {
+            "dataCotacao": "03/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "04/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "05/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "06/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "07/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "08/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "09/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "10/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "11/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "12/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "13/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "14/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "15/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Proclamação da República"
+        },
+        {
+            "dataCotacao": "16/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "17/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "18/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "19/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "20/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Dia da consciência negra"
+        },
+        {
+            "dataCotacao": "21/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "22/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "23/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "24/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "25/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "26/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "27/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "28/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "29/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "30/11/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "01/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "02/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "03/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "04/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "05/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "06/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "07/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "08/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "09/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "10/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "11/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "12/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "13/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "14/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "15/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "16/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "17/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "18/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Sábado-feira"
+        },
+        {
+            "dataCotacao": "19/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "20/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "21/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "22/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "23/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "24/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "25/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FERIADO: Natal"
+        },
+        {
+            "dataCotacao": "26/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "FINAL_DE_SEMANA: Domingo-feira"
+        },
+        {
+            "dataCotacao": "27/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "28/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "29/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "30/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
+        },
+        {
+            "dataCotacao": "31/12/2027",
+            "fatorDiario": "0",
+            "isBusinessDay": false,
+            "reason": "API_UNAVAILABLE"
         }
     ]
 }

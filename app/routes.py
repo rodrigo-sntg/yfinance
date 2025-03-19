@@ -13,9 +13,13 @@ from app.logger import logger
 from app.selic_diaria import get_selic_diaria, ensure_selic_diaria_in_cache
 import yfinance as yf
 from .simulacao import calcular_simulacao
+from .aposentadoria import register_aposentadoria_routes
 
 # Cria o blueprint para as rotas
 api_bp = Blueprint('api', __name__)
+
+# Registra as rotas de aposentadoria
+register_aposentadoria_routes(api_bp)
 
 @api_bp.route('/selic/apurada', methods=['GET'])
 def get_selic_apurada():

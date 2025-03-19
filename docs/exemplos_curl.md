@@ -56,6 +56,58 @@ curl -X GET "http://localhost:5000/investimento/prefixado?data=2020-01-01&valor=
 curl -X GET "http://localhost:5000/investimento/prefixado?data=2025-01-01&valor=1000&taxa_anual=10.5&data_final=2026-01-01"
 ```
 
+## Endpoint de Simulação de Aposentadoria
+
+Este endpoint simula a evolução patrimonial antes e após a aposentadoria.
+
+### Exemplo Básico 
+
+```bash
+curl -X POST "http://localhost:5000/simular/aposentadoria" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "idade_atual": 30,
+    "idade_aposentadoria": 60,
+    "patrimonio_inicial": 100000,
+    "aportes_mensais": 2000,
+    "retirada_mensal": 8000,
+    "retorno_anual": 0.08,
+    "inflacao_anual": 0.04
+  }'
+```
+
+### Exemplo com Patrimônio Pequeno e Retorno Conservador
+
+```bash
+curl -X POST "http://localhost:5000/simular/aposentadoria" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "idade_atual": 45,
+    "idade_aposentadoria": 65,
+    "patrimonio_inicial": 50000,
+    "aportes_mensais": 1000,
+    "retirada_mensal": 3000,
+    "retorno_anual": 0.06,
+    "inflacao_anual": 0.035
+  }'
+```
+
+### Exemplo com Patrimônio Grande e Aposentadoria Antecipada
+
+```bash
+curl -X POST "http://localhost:5000/simular/aposentadoria" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "idade_atual": 35,
+    "idade_aposentadoria": 45,
+    "patrimonio_inicial": 500000,
+    "aportes_mensais": 5000,
+    "retirada_mensal": 7000,
+    "retorno_anual": 0.09,
+    "inflacao_anual": 0.04
+  }'
+```
+
 ## Exemplos de Erros
 
 ### Parâmetro Obrigatório Ausente
