@@ -26,6 +26,7 @@ import sys
 import argparse
 import logging
 from datetime import datetime, date, timedelta
+import json
 import time
 
 # Adiciona o diretório pai ao sys.path para permitir importar os módulos da aplicação
@@ -89,6 +90,38 @@ def parse_args():
         
     return args
 
+def verificar_datas_faltantes(data_inicial, data_final, cache):
+    """
+    Verifica quais datas estão faltando no cache para o período especificado
+    
+    Args:
+        data_inicial (str): Data inicial no formato YYYY-MM-DD
+        data_final (str): Data final no formato YYYY-MM-DD
+        cache (dict): Cache atual com as taxas Selic
+        
+    Returns:
+        list: Lista de datas faltantes em formato date
+    """
+    # Converte as datas para objetos date para comparação
+    data_inicial_obj = datetime.strptime(data_inicial, "%Y-%m-%d").date()
+    data_final_obj = datetime.strptime(data_final, "%Y-%m-%d").date()
+    
+    # Obtém os registros do cache
+    conteudo = cache.get("conteudo", [])
+    
+    # Cria um dicionário com as datas presentes no cache
+    datas_cache = {datetime.strptime(item["data"], "%d/%m/%Y").date() for item in conteudo}
+    
+    # Verifica quais datas estão faltando no cache
+    datas_faltantes = []
+    data_atual = data_inicial_obj
+    while data_atual <= data_final_obj:
+        if data_atual not in datas_cache:
+            datas_faltantes.append(data_atual)
+        data_atual += timedelta(days=1)
+    
+    return datas_faltantes
+
 def main():
     """Função principal do script"""
     # Processa os argumentos
@@ -104,8 +137,9 @@ def main():
     total_registros_antes = 0
     total_registros_novos = 0
     anos_processados = 0
+    total_datas_faltantes = 0
     
-    # Verifica quantos registros já existem no cache
+    # Carrega o cache inicial
     cache_inicial = load_selic_diaria_cache()
     total_registros_antes = len(cache_inicial.get("conteudo", []))
     script_logger.info(f"Cache inicial contém {total_registros_antes} registros")
@@ -124,14 +158,26 @@ def main():
             data_inicial = f"{ano}-01-01"
             data_final = f"{ano}-12-31"
         
-        script_logger.info(f"Buscando dados de {data_inicial} a {data_final}")
+        # Verifica quais datas estão faltando para esse período
+        cache_atual = load_selic_diaria_cache()
+        datas_faltantes = verificar_datas_faltantes(data_inicial, data_final, cache_atual)
+        
+        if not datas_faltantes:
+            script_logger.info(f"Todas as taxas para o ano {ano} já estão no cache. Pulando...")
+            anos_processados += 1
+            continue
+        
+        script_logger.info(f"Buscando {len(datas_faltantes)} taxas faltantes para o período de {data_inicial} a {data_final}")
+        total_datas_faltantes += len(datas_faltantes)
         
         try:
             # Garante que as taxas para o período estão no cache
             cache_atualizado = ensure_selic_diaria_in_cache(data_inicial, data_final)
             
-            # Conta quantos registros foram adicionados
-            novos_registros = len(cache_atualizado.get("conteudo", [])) - total_registros_antes - total_registros_novos
+            # Conta quantos registros foram adicionados verificando o cache atual
+            cache_apos = load_selic_diaria_cache()
+            registros_apos = len(cache_apos.get("conteudo", []))
+            novos_registros = registros_apos - total_registros_antes - total_registros_novos
             
             script_logger.info(f"Processamento do ano {ano} concluído: {novos_registros} novos registros")
             
@@ -157,6 +203,7 @@ def main():
     script_logger.info("="*60)
     script_logger.info(f"Anos processados: {anos_processados}")
     script_logger.info(f"Total de registros no início: {total_registros_antes}")
+    script_logger.info(f"Total de datas faltantes verificadas: {total_datas_faltantes}")
     script_logger.info(f"Novos registros adicionados: {total_registros_novos}")
     script_logger.info(f"Total de registros no cache: {total_registros_final}")
     script_logger.info("="*60)
@@ -164,4 +211,4 @@ def main():
     script_logger.info("Processo concluído com sucesso!")
 
 if __name__ == "__main__":
-    main() 
+    main()
