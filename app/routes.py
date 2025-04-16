@@ -806,3 +806,73 @@ def investimento_prefixado_endpoint():
         erro_msg = f"Erro ao calcular investimento pré-fixado: {str(e)}"
         logger.error(erro_msg)
         return jsonify({"error": erro_msg}), 500
+
+@api_bp.route('/investimento/ipca', methods=['GET'])
+def investimento_ipca_endpoint():
+    """
+    Calcula o valor atualizado de um investimento em Tesouro IPCA+, considerando a variação do IPCA
+    acumulada no período e a taxa fixa acordada no momento da compra do título.
+    
+    Parâmetros:
+      - data: data de início do investimento (YYYY-MM-DD)
+      - valor: valor investido inicial (float)
+      - taxa_fixa: taxa fixa anual do título em % (ex: 5.5 para IPCA+5,5% ao ano)
+      - data_final: data final do investimento (opcional, padrão é o dia anterior à data atual)
+      - taxa_admin: taxa de administração anual em % (opcional, padrão é 0)
+      - taxa_custodia: taxa de custódia anual em % (opcional, padrão é 0.25)
+      - incluir_impostos: se deve incluir cálculo de IR e IOF (opcional, padrão é true)
+      - projecao: se deve usar projeção futura com IPCA estimado (opcional, padrão é false)
+      - ipca_estimado: projeção do IPCA anual em % para cálculo futuro (opcional, padrão é 4.5)
+    """
+    # Log da requisição recebida
+    ip_origem = request.remote_addr
+    user_agent = request.headers.get('User-Agent', 'Unknown')
+    logger.info(f"Requisição de cálculo de investimento IPCA+ recebida de {ip_origem} - User-Agent: {user_agent}")
+    
+    # Importar a função de validação
+    from app.validacao import validar_parametros_investimento_ipca
+    
+    # Validar os parâmetros da requisição
+    params, erro = validar_parametros_investimento_ipca()
+    if erro:
+        return erro
+
+    try:
+        # Importar as funções de cálculo evitando import circular
+        from app.ipca import calcular_rendimento_ipca, estimar_valor_futuro_ipca
+        
+        # Extrair parâmetros para facilitar o tratamento
+        usar_projecao = params.pop('usar_projecao')
+        ipca_estimado_anual = params.pop('ipca_estimado_anual')
+        
+        # Decidir qual função usar com base no parâmetro de projeção
+        if usar_projecao:
+            # Usar a função de projeção com IPCA estimado
+            resultado = estimar_valor_futuro_ipca(
+                ipca_estimado_anual=ipca_estimado_anual,
+                **params
+            )
+            fonte = "projecao"
+            logger.info(f"Usando projeção com IPCA estimado de {ipca_estimado_anual}% ao ano")
+        else:
+            # Usar a função com dados históricos do IPCA
+            resultado = calcular_rendimento_ipca(**params)
+            fonte = "historico"
+            logger.info(f"Usando dados históricos de IPCA do Banco Central")
+        
+        # Adicionar informação sobre a fonte dos dados
+        resultado["fonte_dados"] = fonte
+        
+        # Adicionar o parâmetro de IPCA estimado se foi usado
+        if usar_projecao:
+            resultado["ipca_estimado_anual"] = ipca_estimado_anual
+        
+        logger.info(f"Investimento IPCA+ calculado com sucesso: valor final bruto R$ {resultado['valor_final_bruto']:.2f}, " +
+                   f"valor final líquido R$ {resultado.get('valor_final_liquido', 0):.2f}")
+        
+        return jsonify(resultado)
+    
+    except Exception as e:
+        erro_msg = f"Erro ao calcular investimento IPCA+: {str(e)}"
+        logger.error(erro_msg)
+        return jsonify({"error": erro_msg}), 500
