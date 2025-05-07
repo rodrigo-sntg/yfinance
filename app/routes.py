@@ -950,16 +950,18 @@ def get_stock_dividends_total(ticker):
     request_time = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')
 
     start = request.args.get('start')
+    end = request.args.get('end')
 
-    if not start:
+    if not start or not end:
         logger.warning(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 400 - Parâmetros ausentes - User-Agent: {user_agent}")
-        return jsonify({'erro': "Parâmetros 'start' (YYYY-MM-DD) e 'valor' (float) são obrigatórios."}), 400
+        return jsonify({'erro': "Parâmetros 'start' e 'end' (YYYY-MM-DD) são obrigatórios."}), 400
 
     try:
         start_date = datetime.strptime(start, '%Y-%m-%d')
+        end_date = datetime.strptime(end, '%Y-%m-%d')
     except ValueError:
         logger.warning(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 400 - Formato inválido - User-Agent: {user_agent}")
-        return jsonify({'erro': "Formato inválido para 'start' (YYYY-MM-DD) ou 'valor' (float)."}), 400
+        return jsonify({'erro': "Formato inválido para 'start' ou 'end' (YYYY-MM-DD)."}), 400
 
     try:
         session = requests.Session(impersonate="chrome")
@@ -970,26 +972,24 @@ def get_stock_dividends_total(ticker):
             logger.info(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 404 - Sem preço atual - User-Agent: {user_agent}")
             return jsonify({'erro': 'Não foi possível obter o preço atual da ação.'}), 404
         preco_atual = float(hist['Close'].iloc[-1])
-        data_preco = hist.index[-1].strftime('%Y-%m-%d')
-        # Dividendos desde a data
+        # Dividendos entre as datas
         dividends = stock.dividends
         if hasattr(dividends.index, 'tz_convert'):
             try:
                 dividends.index = dividends.index.tz_convert(None)
             except Exception:
                 dividends.index = dividends.index.tz_localize(None)
-        mask = dividends.index >= pd.to_datetime(start_date)
+        mask = (dividends.index >= pd.to_datetime(start_date)) & (dividends.index <= pd.to_datetime(end_date))
         filtered = dividends[mask]
-        # Monta lista de dividendos
         dividendos = [
-            {'date': idx.strftime('%Y-%m-%d'), 'value': float(valor)}
+            {'data': idx.strftime('%Y-%m-%d'), 'valor': float(valor)}
             for idx, valor in filtered.items()
         ]
         logger.info(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 200 - Valor atual: {preco_atual}, Dividendos encontrados: {len(dividendos)} - User-Agent: {user_agent}")
         return jsonify({
             'ticker': ticker,
             'price': preco_atual,
-            'dividends': dividendos
+            'dividendos': dividendos
         })
     except Exception as e:
         logger.error(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 500 - Erro: {str(e)} - User-Agent: {user_agent}")
