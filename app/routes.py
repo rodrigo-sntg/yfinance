@@ -1001,7 +1001,7 @@ def get_stock_dividends_total(ticker):
         return jsonify({
             'ticker': ticker,
             'price': preco_atual,
-            'dividendos': dividendos
+            'dividends': dividendos
         })
     except Exception as e:
         logger.error(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 500 - Erro: {str(e)} - User-Agent: {user_agent}")
