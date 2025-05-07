@@ -879,3 +879,118 @@ def investimento_ipca_endpoint():
         erro_msg = f"Erro ao calcular investimento IPCA+: {str(e)}"
         logger.error(erro_msg)
         return jsonify({"error": erro_msg}), 500
+
+@api_bp.route('/stock/<ticker>/dividends', methods=['GET'])
+def get_stock_dividends(ticker):
+    """
+    Retorna os dividendos pagos por uma ação específica entre datas.
+    Parâmetros:
+      - start: data inicial (YYYY-MM-DD)
+      - end: data final (YYYY-MM-DD)
+    """
+    client_ip = request.remote_addr
+    user_agent = request.headers.get('User-Agent', 'Unknown')
+    request_time = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')
+
+    start = request.args.get('start')
+    end = request.args.get('end')
+
+    if not start or not end:
+        logger.warning(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 400 - Parâmetros ausentes - User-Agent: {user_agent}")
+        return jsonify({'erro': "Parâmetros 'start' e 'end' são obrigatórios (YYYY-MM-DD)"}), 400
+
+    try:
+        # Valida formato das datas
+        start_date = datetime.strptime(start, '%Y-%m-%d')
+        end_date = datetime.strptime(end, '%Y-%m-%d')
+    except ValueError:
+        logger.warning(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 400 - Formato de data inválido - User-Agent: {user_agent}")
+        return jsonify({'erro': "Formato de data inválido. Use YYYY-MM-DD."}), 400
+
+    try:
+        session = requests.Session(impersonate="chrome")
+        stock = yf.Ticker(ticker, session=session)
+        dividends = stock.dividends
+        # Remove o timezone do índice, se existir
+        if hasattr(dividends.index, 'tz_convert'):
+            try:
+                dividends.index = dividends.index.tz_convert(None)
+            except Exception:
+                dividends.index = dividends.index.tz_localize(None)
+        if dividends.empty:
+            logger.info(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 404 - Sem dividendos - User-Agent: {user_agent}")
+            return jsonify({'erro': 'Nenhum dividendo encontrado para o ticker no período informado.'}), 404
+        # Filtra pelo período
+        mask = (dividends.index >= pd.to_datetime(start_date)) & (dividends.index <= pd.to_datetime(end_date))
+        filtered = dividends[mask]
+        if filtered.empty:
+            logger.info(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 404 - Sem dividendos no período - User-Agent: {user_agent}")
+            return jsonify({'erro': 'Nenhum dividendo encontrado para o ticker no período informado.'}), 404
+        # Monta resposta
+        dividendos = [
+            {'data': idx.strftime('%Y-%m-%d'), 'valor': float(valor)}
+            for idx, valor in filtered.items()
+        ]
+        logger.info(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 200 - Dividendos encontrados: {len(dividendos)} - User-Agent: {user_agent}")
+        return jsonify({'ticker': ticker, 'dividendos': dividendos})
+    except Exception as e:
+        logger.error(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 500 - Erro: {str(e)} - User-Agent: {user_agent}")
+        return jsonify({'erro': str(e)}), 500
+
+@api_bp.route('/stock/<ticker>/dividends/total', methods=['GET'])
+def get_stock_dividends_total(ticker):
+    """
+    Retorna o valor atual do investimento + dividendos recebidos desde a data informada.
+    Parâmetros:
+      - start: data inicial (YYYY-MM-DD)
+      - valor: valor investido inicial (float)
+    """
+    client_ip = request.remote_addr
+    user_agent = request.headers.get('User-Agent', 'Unknown')
+    request_time = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')
+
+    start = request.args.get('start')
+
+    if not start:
+        logger.warning(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 400 - Parâmetros ausentes - User-Agent: {user_agent}")
+        return jsonify({'erro': "Parâmetros 'start' (YYYY-MM-DD) e 'valor' (float) são obrigatórios."}), 400
+
+    try:
+        start_date = datetime.strptime(start, '%Y-%m-%d')
+    except ValueError:
+        logger.warning(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 400 - Formato inválido - User-Agent: {user_agent}")
+        return jsonify({'erro': "Formato inválido para 'start' (YYYY-MM-DD) ou 'valor' (float)."}), 400
+
+    try:
+        session = requests.Session(impersonate="chrome")
+        stock = yf.Ticker(ticker, session=session)
+        # Preço de fechamento mais recente
+        hist = stock.history(period='1d')
+        if hist.empty:
+            logger.info(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 404 - Sem preço atual - User-Agent: {user_agent}")
+            return jsonify({'erro': 'Não foi possível obter o preço atual da ação.'}), 404
+        preco_atual = float(hist['Close'].iloc[-1])
+        data_preco = hist.index[-1].strftime('%Y-%m-%d')
+        # Dividendos desde a data
+        dividends = stock.dividends
+        if hasattr(dividends.index, 'tz_convert'):
+            try:
+                dividends.index = dividends.index.tz_convert(None)
+            except Exception:
+                dividends.index = dividends.index.tz_localize(None)
+        mask = dividends.index >= pd.to_datetime(start_date)
+        filtered = dividends[mask]
+        # Monta lista de dividendos
+        dividendos = [
+            {'date': idx.strftime('%Y-%m-%d'), 'value': float(valor)}
+            for idx, valor in filtered.items()
+        ]
+        logger.info(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 200 - Valor atual: {preco_atual}, Dividendos encontrados: {len(dividendos)} - User-Agent: {user_agent}")
+        return jsonify({
+            'ticker': ticker,
+            'price': preco_atual,
+            'dividends': dividendos
+        })
+    except Exception as e:
+        logger.error(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 500 - Erro: {str(e)} - User-Agent: {user_agent}")
+        return jsonify({'erro': str(e)}), 500
