@@ -12,6 +12,7 @@ from app.investimento import calcular_rendimento, analisar_investimento
 from app.logger import logger
 from app.selic_diaria import get_selic_diaria, ensure_selic_diaria_in_cache
 import yfinance as yf
+from curl_cffi import requests
 from .simulacao import calcular_simulacao
 from .aposentadoria import register_aposentadoria_routes
 
@@ -525,7 +526,9 @@ def get_stock_data(ticker):
     request_time = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')  # Horário da requisição UTC
 
     try:
-        stock = yf.Ticker(ticker)
+        session = requests.Session(impersonate="chrome")
+
+        stock = yf.Ticker(ticker, session=session)
         data = stock.history(period='1d')
         regular_market_price = stock.info.get("regularMarketPrice")
 
