@@ -974,13 +974,25 @@ def get_stock_dividends_total(ticker):
         preco_atual = float(hist['Close'].iloc[-1])
         # Dividendos entre as datas
         dividends = stock.dividends
+        logger.info(f"[DEBUG] Dividendos brutos: type={type(dividends)}, len={len(dividends)}, index_type={type(dividends.index)}")
+        logger.info(f"[DEBUG] Index tzinfo: {getattr(dividends.index, 'tz', None)}")
+        logger.info(f"[DEBUG] Index sample: {list(dividends.index[:5]) if len(dividends) > 0 else 'vazio'}")
+        logger.info(f"[DEBUG] Valores sample: {dividends.head(5).to_dict() if len(dividends) > 0 else 'vazio'}")
         if hasattr(dividends.index, 'tz_convert'):
             try:
                 dividends.index = dividends.index.tz_convert(None)
-            except Exception:
-                dividends.index = dividends.index.tz_localize(None)
+                logger.info(f"[DEBUG] Após tz_convert(None): tzinfo={getattr(dividends.index, 'tz', None)}")
+            except Exception as e:
+                logger.warning(f"[DEBUG] Falha ao converter timezone com tz_convert: {e}")
+                try:
+                    dividends.index = dividends.index.tz_localize(None)
+                    logger.info(f"[DEBUG] Após tz_localize(None): tzinfo={getattr(dividends.index, 'tz', None)}")
+                except Exception as e2:
+                    logger.warning(f"[DEBUG] Falha ao remover timezone com tz_localize: {e2}")
+        logger.info(f"[DEBUG] Filtro: start_date={start_date}, end_date={end_date}")
         mask = (dividends.index >= pd.to_datetime(start_date)) & (dividends.index <= pd.to_datetime(end_date))
         filtered = dividends[mask]
+        logger.info(f"[DEBUG] Dividendos filtrados: len={len(filtered)}; sample={filtered.head(5).to_dict() if len(filtered) > 0 else 'vazio'}")
         dividendos = [
             {'data': idx.strftime('%Y-%m-%d'), 'valor': float(valor)}
             for idx, valor in filtered.items()
