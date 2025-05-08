@@ -994,7 +994,7 @@ def get_stock_dividends_total(ticker):
         filtered = dividends[mask]
         logger.info(f"[DEBUG] Dividendos filtrados: len={len(filtered)}; sample={filtered.head(5).to_dict() if len(filtered) > 0 else 'vazio'}")
         dividendos = [
-            {'data': idx.strftime('%Y-%m-%d'), 'valor': float(valor)}
+            {'date': idx.strftime('%Y-%m-%d'), 'value': float(valor)}
             for idx, valor in filtered.items()
         ]
         logger.info(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 200 - Valor atual: {preco_atual}, Dividendos encontrados: {len(dividendos)} - User-Agent: {user_agent}")
