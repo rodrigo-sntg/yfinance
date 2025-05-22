@@ -1006,3 +1006,108 @@ def get_stock_dividends_total(ticker):
     except Exception as e:
         logger.error(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 500 - Erro: {str(e)} - User-Agent: {user_agent}")
         return jsonify({'erro': str(e)}), 500
+
+@api_bp.route('/stock/<ticker>/price', methods=['GET'])
+def get_stock_price_at_date(ticker):
+    """
+    Retorna o preço de uma ação em uma data específica.
+    Parâmetros:
+      - date: data para consulta (YYYY-MM-DD)
+    """
+    client_ip = request.remote_addr
+    user_agent = request.headers.get('User-Agent', 'Unknown')
+    request_time = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')
+
+    date_str = request.args.get('date')
+
+    if not date_str:
+        logger.warning(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 400 - Parâmetro ausente - User-Agent: {user_agent}")
+        return jsonify({'erro': "Parâmetro 'date' (YYYY-MM-DD) é obrigatório."}), 400
+
+    try:
+        # Valida formato da data
+        target_date = datetime.strptime(date_str, '%Y-%m-%d')
+        # Acrescenta um dia para o fim do período
+        end_date = (target_date + timedelta(days=1)).strftime('%Y-%m-%d')
+        # Formata a data alvo
+        target_date_str = target_date.strftime('%Y-%m-%d')
+    except ValueError:
+        logger.warning(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 400 - Formato de data inválido - User-Agent: {user_agent}")
+        return jsonify({'erro': "Formato de data inválido. Use YYYY-MM-DD."}), 400
+
+    try:
+        # Usar padrão do endpoint /dividends para manter consistência
+        session = requests.Session(impersonate="chrome")
+        stock = yf.Ticker(ticker, session=session)
+        
+        # Obter histórico incluindo a data alvo (start, end é inclusivo)
+        # Adiciona 5 dias antes para aumentar chance de ter dados em caso de feriados
+        start_date = (target_date - timedelta(days=5)).strftime('%Y-%m-%d')
+        
+        logger.info(f"[DEBUG] Consultando preço de {ticker} entre {start_date} e {end_date}")
+        hist = stock.history(start=start_date, end=end_date)
+        
+        logger.info(f"[DEBUG] Dados obtidos: shape={hist.shape}, index={hist.index}")
+        
+        # Verifica se há dados no DataFrame
+        if hist.empty:
+            logger.info(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 404 - Sem dados - User-Agent: {user_agent}")
+            return jsonify({'erro': f"Não foi possível obter dados para {ticker}."}), 404
+        
+        # Tenta encontrar a data exata ou a mais próxima
+        try:
+            # Remove timezone do índice para comparação, se necessário
+            if hasattr(hist.index, 'tz_convert'):
+                try:
+                    hist.index = hist.index.tz_convert(None)
+                except Exception as e:
+                    logger.warning(f"[DEBUG] Erro ao converter timezone: {e}")
+                    hist.index = hist.index.tz_localize(None)
+            
+            # Primeiro tenta encontrar a data exata
+            target_date_pd = pd.to_datetime(target_date)
+            if target_date_pd in hist.index:
+                price_data = hist.loc[target_date_pd]
+                exact_match = True
+            else:
+                # Se não encontrar a data exata, pega a mais próxima
+                logger.info(f"[DEBUG] Data exata não encontrada, buscando data próxima. Datas disponíveis: {hist.index}")
+                # Converte índice para datetime e ordena
+                idx = pd.to_datetime(hist.index)
+                # Encontra o índice mais próximo da data alvo
+                nearest_idx = idx[abs(idx - target_date_pd).argmin()]
+                price_data = hist.loc[nearest_idx]
+                exact_match = False
+                target_date_str = nearest_idx.strftime('%Y-%m-%d')
+        except Exception as e:
+            logger.error(f"[DEBUG] Erro ao buscar data: {e}")
+            # Tenta obter o primeiro registro disponível
+            if len(hist) > 0:
+                price_data = hist.iloc[0]
+                target_date_str = hist.index[0].strftime('%Y-%m-%d')
+                exact_match = False
+            else:
+                logger.error(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 404 - Data não encontrada - User-Agent: {user_agent}")
+                return jsonify({'erro': f"Não foi possível encontrar dados para a data {date_str}."}), 404
+        
+        # Prepara a resposta
+        response = {
+            'ticker': ticker,
+            'data': target_date_str,
+            'data_solicitada': date_str,
+            'data_exata': exact_match,
+            'preco': {
+                'abertura': float(price_data['Open']),
+                'alta': float(price_data['High']),
+                'baixa': float(price_data['Low']),
+                'fechamento': float(price_data['Close']),
+                'volume': int(price_data['Volume'])
+            }
+        }
+        
+        logger.info(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Data: {target_date_str} - Status: 200 - User-Agent: {user_agent}")
+        return jsonify(response)
+    
+    except Exception as e:
+        logger.error(f"{request_time} - IP: {client_ip} - Ticker: {ticker} - Status: 500 - Erro: {str(e)} - User-Agent: {user_agent}")
+        return jsonify({'erro': str(e)}), 500
