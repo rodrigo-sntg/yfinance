@@ -59,20 +59,18 @@ def calcular_investimento_prefixado(
         regime=regime
     )
     
-    # Calcular resultado até a data atual (se aplicável)
-    if not apenas_simulacao_final:
-        resultado_atual = calcular_periodo(
-            data_inicial=data_inicial,
-            data_final=data_atual,
-            valor_investido=valor_investido,
-            taxa_anual=taxa_anual,
-            taxa_admin=taxa_admin,
-            taxa_custodia=taxa_custodia,
-            incluir_impostos=incluir_impostos,
-            regime=regime
-        )
-        # Adicionar situação atual como um campo separado
-        resultado_completo["situacao_atual"] = resultado_atual
+    resultado_atual = calcular_periodo(
+        data_inicial=data_inicial,
+        data_final=data_atual,
+        valor_investido=valor_investido,
+        taxa_anual=taxa_anual,
+        taxa_admin=taxa_admin,
+        taxa_custodia=taxa_custodia,
+        incluir_impostos=incluir_impostos,
+        regime=regime
+    )
+    # Adicionar situação atual como um campo separado
+    resultado_completo["situacao_atual"] = resultado_atual
     
     return resultado_completo
 
